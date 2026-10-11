@@ -1,1 +1,1 @@
-{"name":"qkinhas-coruna","version":"1.0.0","private":true,"description":"Web de cookies y café para Qkinhas, A Coruña","scripts":{"start":"node server.mjs","check":"node --check dist/app.js"},"type":"module"}
+{"name":"qkinhas","version":"1.0.0","private":true,"description":"Web de cookies y café para Qkinhas, A Coruña","scripts":{"start":"node server.mjs","check":"node --check dist/app.js"},"type":"module"}
