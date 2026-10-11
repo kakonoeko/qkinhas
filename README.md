@@ -1,2 +1,30 @@
-# qkinhas-coruna
-Web para Qkinhas en A Coruña: cookies, café, Instagram, TikTok y contacto.
+# Qkinhas · Cookies & good vibes
+
+Web adaptable a móvil y ordenador para Qkinhas, negocio de cookies estilo Nueva York, café de especialidad y matcha en lata en A Coruña.
+
+## Incluye
+
+- Carta visual con fotos reales del negocio, filtros y favoritos locales.
+- Teléfono verificado en la biografía de Instagram: +34 666 086 602.
+- Accesos a WhatsApp, Instagram, Reels, TikTok, Google Maps, Glovo y Uber Eats.
+- Historia, horarios, preguntas frecuentes y mapa cargado bajo demanda.
+- Metadatos sociales y datos estructurados para SEO local. La indexación requiere un sitio público.
+- Diseño sin dependencias, sin analítica, sin formularios ni píxeles.
+
+## Ver en local
+
+Requiere Node.js. Ejecutar `npm start` y abrir http://127.0.0.1:4173.
+
+`npm run check` comprueba la sintaxis de JavaScript. La carpeta `dist/` contiene la web completa para cualquier alojamiento estático.
+
+## Fuentes y límites
+
+Consulta [INVESTIGACION.md](INVESTIGACION.md). Datos revisados el 11 de octubre de 2026. El teléfono procede de Instagram; no figuraba en Google Maps. Los horarios sí se comprobaron en Maps. Los precios se consultan en las plataformas de pedidos para evitar presentar precios de reparto como precios de tienda.
+
+Propuesta de diseño encargada por el usuario, pendiente de validación por el titular del negocio. No implica que sea su web oficial. Marca e imágenes pertenecen a sus respectivos titulares; no se ha concedido una licencia general sobre esos recursos. El logo fue localizado en la carta pública de Glovo (64 px); conviene sustituirlo por el original de alta resolución cuando esté disponible.
+
+## Publicación
+
+La carpeta `dist/` puede publicarse desde GitHub Pages. No necesita compilación. Si cambia el dominio público definitivo, actualizar las URLs absolutas de imágenes en los metadatos de `dist/index.html`.
+
+La configuración `.openai/hosting.json` corresponde a la copia alojada en Sites. Los archivos de esta copia no contienen credenciales.
