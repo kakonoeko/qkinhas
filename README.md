@@ -1,5 +1,9 @@
 # Qkinhas · Cookies & good vibes
 
+Web pública: https://kakonoeko.github.io/qkinhas/
+
+Repositorio: https://github.com/kakonoeko/qkinhas
+
 Web adaptable a móvil y ordenador para Qkinhas, negocio de cookies estilo Nueva York, café de especialidad y matcha en lata en A Coruña.
 
 ## Incluye
