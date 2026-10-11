@@ -25,7 +25,7 @@ Requiere Node.js. Ejecutar `npm start` y abrir http://127.0.0.1:4173.
 
 Consulta [INVESTIGACION.md](INVESTIGACION.md). Datos revisados el 11 de octubre de 2026. El teléfono procede de Instagram; no figuraba en Google Maps. Los horarios sí se comprobaron en Maps. Los precios se consultan en las plataformas de pedidos para evitar presentar precios de reparto como precios de tienda.
 
-Propuesta de diseño encargada por el usuario, pendiente de validación por el titular del negocio. No implica que sea su web oficial. Marca e imágenes pertenecen a sus respectivos titulares; no se ha concedido una licencia general sobre esos recursos. La mascota se ha obtenido del perfil público de Instagram de Qkinhas (150 px) y se utiliza en la cabecera, portada, tarjetas de redes y pie de página. No se ha redibujado ni modificado su diseño.
+Propuesta de diseño encargada por el usuario, pendiente de validación por el titular del negocio. No implica que sea su web oficial. Marca e imágenes pertenecen a sus respectivos titulares; no se ha concedido una licencia general sobre esos recursos. La imagen original de la mascota procede del perfil público de Instagram de Qkinhas (150 px). Se conservan los distintivos de marca de cabecera y pie. Se han creado dos poses derivadas con image_gen: una saludando junto al lema y otra sentada junto al mensaje para compartir. Ambas tienen fondo transparente y su espacio propio en el diseño, sin superponerse a fotografías ni textos.
 
 ## Publicación
 
