@@ -22,3 +22,12 @@ document.getElementById('load-map').addEventListener('click', () => {
   const frame = document.createElement('iframe'); frame.title = 'Ubicación de Qkinhas en A Coruña'; frame.src = 'https://www.google.com/maps?q=Qkinhas%20Costa%20da%20Uni%C3%B3n%203%20A%20Coru%C3%B1a&output=embed'; frame.loading = 'lazy'; frame.referrerPolicy = 'no-referrer-when-downgrade'; document.getElementById('map-panel').replaceChildren(frame);
 });
 document.getElementById('year').textContent = new Date().getFullYear();
+document.querySelectorAll('.perched-mascot').forEach(button => {
+  let greetingTimer;
+  button.addEventListener('click', () => {
+    button.classList.add('is-greeting');
+    announce('¡Hola! ¿Compartimos una cookie? 🍪');
+    clearTimeout(greetingTimer);
+    greetingTimer = setTimeout(() => button.classList.remove('is-greeting'), 1600);
+  });
+});
