@@ -12,7 +12,7 @@ document.querySelectorAll('.favorite').forEach(button => {
   button.addEventListener('click', () => { const name = button.dataset.name; if (favorites.includes(name)) favorites = favorites.filter(value => value !== name); else favorites.push(name); try { localStorage.setItem('qkinhas-favorites', JSON.stringify(favorites)); } catch {} update(); announce(favorites.includes(name) ? `${name}: guardado en tus antojos ♡` : `${name}: quitado de tus antojos`); });
 });
 document.getElementById('share').addEventListener('click', async () => {
-  const url = window.location.origin + window.location.pathname;
+  const url = window.location.origin + window.location.pathname + '?v=logo-20261012';
   const data = {title: 'Qkinhas · Un plan dulce en A Coruña', text: 'Cookies, café y good vibes. ¿Nos pasamos por Qkinhas?', url};
   if (navigator.share) { try { await navigator.share(data); return; } catch (error) { if (error.name === 'AbortError') return; } }
   try { await navigator.clipboard.writeText(url); announce('Enlace copiado. ¡Pásale el plan a alguien!'); }
